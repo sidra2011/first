@@ -1,0 +1,39 @@
+.header{
+    top:0;
+    left:0;
+    width:100px;
+    padding:20px;
+    position:fixed;
+
+
+}
+.header .navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.navbar .menu-links{
+    display:flex;
+    gap:150px;
+}
+.navbar a{
+    color:aqua;
+    text-decoration:none;
+}
+ul
+{
+    list-style-type: none;
+}
+.navbar a:hover{
+    color:blue;
+}
+.main-section {
+    height:100vh;
+    display:flex;
+    align-items:center;
+    padding:20px;
+}
+.main-section .content{
+    color:bisque
+}
